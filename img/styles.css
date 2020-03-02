@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  /* vertical-align: baseline; */
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  my styles below */
+
+/* Broad targetting  */
+
+html {
+  background-color: #5cdb95;
+}
+body {
+  margin: 5%;
+}
+
+#topSection {
+  display: flex;
+  justify-content: space-between;
+}
+.signUp button,
+.logIn button {
+  border: 3px solid black;
+  padding: 20%;
+  border-radius: 50%;
+  font-size: 40px;
+  font-family: "Fredoka One";
+  background-color: #fdfdfd7a;
+  color: #05386b;
+}
+
+.headerTitle {
+  font-size: 46px;
+  font-family: "Indie Flower";
+  border: 3px solid #05386b;
+  padding-left: 16%;
+  padding-right: 16%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border-radius: 40%;
+  background-color: #fdfdfd25;
+  font-weight: bolder;
+  color: #05386b;
+}
+.middleSection {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  border: 3px solid #05386b;
+  padding: 5%;
+  font-family: "Fredoka One";
+  margin-left: 20%;
+  margin-top: 5%;
+  border-radius: 20px;
+  background-color: #fdfdfd7a;
+  color: #05386b;
+  font-size: 26px;
+}
+.middleSection p {
+  font-family: "Signika";
+  line-height: 30px;
+  font-size: 20px;
+}
+.middleSection p span {
+  font-family: "Indie Flower";
+  font-weight: 900;
+  font-size: 26px;
+  padding: 5px;
+}
+.youCan {
+  text-align: center;
+  border: 3px solid #05386b;
+  width: 25%;
+  margin-left: 37%;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #fdfdfd7a;
+  font-family: "Signika";
+  color: #05386b;
+  font-size: 20px;
+}
+.youCan span {
+  font-family: "Indie Flower";
+  font-weight: 900;
+  font-size: 22px;
+  padding: 5px;
+}
+.bottomSection {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.setWatering,
+.setFeeding,
+.keepTrack {
+  display: flex;
+  border: 3px solid #05386b;
+  padding: 3%;
+  border-radius: 50%;
+  font-size: 20px;
+  font-family: "Fredoka One";
+  background-color: #fdfdfd7a;
+  color: #05386b;
+  width: 15%;
+  height: 30%;
+  text-align: center;
+
+  flex-direction: row;
+  margin-top: 5%;
+}
+.setWatering {
+  margin-left: 15%;
+}
+.keepTrack {
+}
+.setFeeding {
+  margin-right: 15%;
+}
+
+.setWatering h2,
+.setFeeding h2,
+.keepTrack h2 {
+  margin-top: 25%;
+}
+
+.fas {
+  font-size: 36px;
+}
+.bottomSection img {
+  margin-top: 5%;
+}
+
+.setWatering:hover {
+  background-color: #d9e9e0;
+  border: dotted #05386b 8px;
+  color: #08813e;
+  line-height: 20px;
+}
+.setFeeding:hover {
+  background-color: #d9e9e0;
+  border: dotted #05386b 8px;
+  color: #08813e;
+  line-height: 20px;
+}
+.keepTrack:hover {
+  background-color: #d9e9e0;
+  border: dotted #05386b 8px;
+  color: #08813e;
+  line-height: 20px;
+}
